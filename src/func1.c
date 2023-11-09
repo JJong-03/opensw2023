@@ -1,4 +1,4 @@
 #include<stdio.h>
-void foo(){
-    printf("foo");
+void foo(int num){
+    printf("foo = %d\n", num);
 }
